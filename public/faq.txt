@@ -1,0 +1,68 @@
+  <div className="py-[5%] px-[5%] flex  lg:flex-row flex-col-reverse bg-gray-900 border-y-[2px] gap-[5%]">
+        <div className="lg:w-[60%] text-white">
+          <Accordion type="single" collapsible>
+            {/* FAQ 1 */}
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-white text-3xl">
+                What is bid consulting?
+              </AccordionTrigger>
+              <AccordionContent className="text-xl">
+                Bid consulting involves guiding businesses through the bidding
+                process for contracts, ensuring they meet requirements and
+                submit competitive proposals.
+              </AccordionContent>
+            </AccordionItem>
+
+            {/* FAQ 2 */}
+            <AccordionItem value="item-2">
+              <AccordionTrigger className="text-white text-3xl">
+                What IT services do you provide?
+              </AccordionTrigger>
+              <AccordionContent className="text-xl">
+                We offer IT services including network setup, maintenance,
+                cybersecurity, cloud solutions, and software development to help
+                businesses operate efficiently.
+              </AccordionContent>
+            </AccordionItem>
+
+            {/* FAQ 3 */}
+            <AccordionItem value="item-3">
+              <AccordionTrigger className="text-white text-3xl">
+                What does your visa support service include?
+              </AccordionTrigger>
+              <AccordionContent className="text-xl">
+                Our visa support service helps individuals and businesses with
+                visa applications, documentation, and compliance for smooth
+                international travel or employment.
+              </AccordionContent>
+            </AccordionItem>
+
+            {/* FAQ 4 */}
+            <AccordionItem value="item-4">
+              <AccordionTrigger className="text-white text-3xl">
+                Can you assist with hiring for construction projects?
+              </AccordionTrigger>
+              <AccordionContent className="text-xl">
+                Yes, we specialize in recruiting skilled professionals for
+                construction projects, ensuring you get the right talent for the
+                job.
+              </AccordionContent>
+            </AccordionItem>
+
+            {/* FAQ 5 */}
+            <AccordionItem value="item-5">
+              <AccordionTrigger className="text-white text-3xl">
+                How can I get started with your services?
+              </AccordionTrigger>
+              <AccordionContent className="text-xl">
+                Getting started is easy! Contact us via phone or email, and our
+                team will assist you in determining the best solutions for your
+                needs.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+        <div className="lg:w-[40%]">
+          <h2 className="text-[70px] text-white stretch">FAQ*</h2>
+        </div>
+      </div>
