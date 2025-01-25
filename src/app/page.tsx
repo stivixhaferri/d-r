@@ -48,21 +48,21 @@ const page = () => {
           </div>
           <div className="lg:w-[80%] w-full flex items-center justify-center">
             <h2 className="stretch lg:text-[80px] lg:py-0 py-5 z-[5] text-[35px] font-semibold relative drop-shadow-4xl text-gray-300 lg:shadow-none ">
-              SIMPLIFY AND <br /> LACE OF EXTRA
+            EASE YOUR PATH, LEAD AHEAD
             </h2>
           </div>
           <div className="lg:w-[10%] w-full flex items-center justify-end gap-2 z-[5]">
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <a href="" className="z-[5] ">
+                  <a href="tel:+32495135112" className="z-[5] ">
                     <div className="w-[50px] lg:mb-0 mb-5 h-[50px] border-black bg-black border-[1px] relative flex items-center justify-center rounded-full">
                       <Phone fill='white' className="" />
                     </div>
                   </a>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>Phone : +01 23456789</p>
+                  <p>Phone : +32 495 13 51 12</p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
@@ -151,8 +151,7 @@ const page = () => {
                 Bid Management
               </h2>
               <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                tempora ut accusamus
+              Streamline your processes with tailored solutions to meet every requirement.
               </p>
             </div>
 
@@ -166,8 +165,7 @@ const page = () => {
                 IT Services
               </h2>
               <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                tempora ut accusamus
+              Empower your business with cutting-edge tech and expert support for growth.
               </p>
             </div>
 
@@ -181,8 +179,7 @@ const page = () => {
                 Visa Support
               </h2>
               <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                tempora ut accusamus
+                Navigate visa complexities effortlessly with our personalized guidance.
               </p>
             </div>
 
@@ -196,8 +193,7 @@ const page = () => {
                 Hiring Constructtion
               </h2>
               <p className="text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                tempora ut accusamus
+              Bridge the gap to skilled teams for seamless project execution abroad.
               </p>
             </div>
           </div>
@@ -217,12 +213,10 @@ const page = () => {
             </h6>
             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
               <h2 className="text-gray-900 dark:text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-                The Tale of Our Achievement Story
+              The Journey of Progress and Purpose
               </h2>
               <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                Our achievement story is a testament to teamwork and
-                perseverance. Together, we&apos;ve overcome challenges, celebrated
-                victories, and created a narrative of progress and success.
+              Our story is built on dedication, collaboration, and growth. Together, we’ve turned challenges into opportunities, milestones into achievements, and aspirations into realities.
               </p>
             </div>
           </div>
@@ -230,28 +224,28 @@ const page = () => {
             <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
               <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  33+ Years
+                  5+ Years
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                  Influencing Digital Landscapes Together
+                Shaping Industries with Consistency and Expertise
                 </p>
               </div>
               <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  125+ Projects
+                  100+ Projects
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                  Excellence Achieved Through Success
+                Delivering Results That Make a Difference
                 </p>
               </div>
             </div>
             <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
               <div className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  26+ Awards
+                  8+ Awards
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                  Our Dedication to Innovation Wins Understanding
+                Recognized for Pioneering Solutions and Commitment
                 </p>
               </div>
               <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
@@ -259,7 +253,7 @@ const page = () => {
                   99% Happy Clients
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                  Mirrors our Focus on Client Satisfaction.
+                Reflecting Our Promise to Quality and Trust
                 </p>
               </div>
             </div>
@@ -353,19 +347,13 @@ const page = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
               <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Speechless with how easy this was to integrate
+                  Simplifying Bid Management
                 </h3>
                 <p className="my-4">
-                  I recently got my hands on Flowbite Pro, and holy crap, I&apos;m
-                  speechless with how easy this was to integrate within my
-                  application. Most templates are a pain, code is scattered, and
-                  near impossible to theme.
+                Working with D&R Consultancy has been a transformative experience. Their expertise in identifying, managing, and winning bids is unparalleled.
+                With clear processes and well-organized strategies, they made a complex task feel straightforward. If you`re looking for dependable support, D&R is the right choice.
                 </p>
-                <p className="my-4">
-                  Flowbite has code in one place and I&apos;m not joking when I say
-                  it took me a matter of minutes to copy the code, customise it
-                  and integrate within a Laravel + Vue application.
-                </p>
+                
                 <p className="my-4">
                   If you care for your time, I hands down would go with this.
                 </p>
@@ -379,7 +367,7 @@ const page = () => {
                 <div className="space-y-0.5 font-medium text-left">
                   <div>Bonnie Green</div>
                   <div className="text-sm font-light text-gray-500">
-                    Developer at Open AI
+                  Project Manager at Open Solutions
                   </div>
                 </div>
               </figcaption>
@@ -387,19 +375,14 @@ const page = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
               <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Solid foundation for any project
+                Reliable IT Services
                 </h3>
                 <p className="my-4">
-                  FlowBite provides a robust set of design tokens and
-                  components based on the popular Tailwind CSS framework. From
-                  the most used UI components like forms and navigation bars to
-                  the whole app screens designed both for desktop and mobile,
-                  this UI kit provides a solid foundation for any project.
+                D&R Consultancy&apos;s IT services are a game-changer. From setting up systems to maintaining security, they provide end-to-end support that keeps everything running smoothly.
+
+Their team’s attention to detail ensures that every project is completed on time and within budget.
                 </p>
-                <p className="my-4">
-                  Designing with Figma components that can be easily translated
-                  to the utility classes of Tailwind CSS is a huge timesaver!
-                </p>
+               
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
                 <img
@@ -410,7 +393,7 @@ const page = () => {
                 <div className="space-y-0.5 font-medium text-left">
                   <div>Roberta Casas</div>
                   <div className="text-sm font-light text-gray-500">
-                    Lead designer at Dropbox
+                  IT Lead at TechBridge
                   </div>
                 </div>
               </figcaption>
@@ -418,21 +401,14 @@ const page = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r">
               <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Mindblowing workflow and variants
+                Efficient Visa Support
                 </h3>
                 <p className="my-4">
-                  As someone who mainly designs in the browser, I&apos;ve been a
-                  casual user of Figma, but as soon as I saw and started playing
-                  with FlowBite my mind was 🤯.
+                D&R Consultancy made the visa process incredibly simple and stress-free. Their deep understanding of legal requirements and documentation saved us valuable time.
+
+Their professionalism and commitment to detail truly stand out. I highly recommend their visa support services.
                 </p>
-                <p className="my-4">
-                  Everything is so well structured and simple to use (I&apos;ve
-                  learnt so much about Figma by just using the toolkit).
-                </p>
-                <p className="my-4">
-                  Aesthetically, the well designed components are beautiful and
-                  will undoubtedly level up your next application.
-                </p>
+               
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
                 <img
@@ -443,7 +419,7 @@ const page = () => {
                 <div className="space-y-0.5 font-medium text-left">
                   <div>Jese Leos</div>
                   <div className="text-sm font-light text-gray-500">
-                    Software Engineer at Facebook
+                  HR Specialist at GlobalLink
                   </div>
                 </div>
               </figcaption>
@@ -451,16 +427,12 @@ const page = () => {
             <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12">
               <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
                 <h3 className="text-lg font-semibold text-gray-900">
-                  Efficient Collaborating
+                Skilled Workforce Hiring
                 </h3>
                 <p className="my-4">
-                  This is a very complex and beautiful set of elements. Under
-                  the hood it comes with the best things from 2 different
-                  worlds: Figma and Tailwind.
-                </p>
-                <p className="my-4">
-                  You have many examples that can be used to create a fast
-                  prototype for your team.
+                Hiring skilled workers through D&R Consultancy has been a seamless process. They have an impressive network and provide reliable candidates who meet our project needs perfectly.
+
+Their support has been instrumental in helping us meet tight deadlines while maintaining high-quality standards.
                 </p>
               </blockquote>
               <figcaption className="flex justify-center items-center space-x-3">
@@ -472,7 +444,7 @@ const page = () => {
                 <div className="space-y-0.5 font-medium text-left">
                   <div>Joseph McFall</div>
                   <div className="text-sm font-light text-gray-500">
-                    CTO at Google
+                  Construction Manager at BuildSmart
                   </div>
                 </div>
               </figcaption>

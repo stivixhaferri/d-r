@@ -3,7 +3,7 @@
 const page = () => {
   return (
     <div className="bg-white text-gray-800 dark:hidden">
-      <div className="container mx-auto px-4 lg:py-8 py-[15%]">
+      <div className="container mx-auto px-4 lg:py-[5%] py-[15%]">
         <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
         <p className="mb-4">
           At D&R Consultancy, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your information when you engage with our services.

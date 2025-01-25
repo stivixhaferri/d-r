@@ -127,27 +127,26 @@ const page = () => {
             <div className="mb-8 relative pl-8 border-l-2 border-blue-600">
               <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1"></div>
               <h3 className="text-xl font-semibold mb-2">
-                2010: The Beginning
+              2020: The Beginning
               </h3>
               <p className="text-gray-600">
-                Acme Inc. was founded with a vision to transform business
-                technology.
+              D&R Consultancy was founded with a mission to deliver innovative solutions across various sectors, including IT services, bid management, and hiring support for public institutions.
               </p>
             </div>
             <div className="mb-8 relative pl-8 border-l-2 border-blue-600">
               <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1"></div>
-              <h3 className="text-xl font-semibold mb-2">2015: Rapid Growth</h3>
+              <h3 className="text-xl font-semibold mb-2">2022: Steady Growth</h3>
               <p className="text-gray-600">
-                Expanded our services and opened offices in 5 new countries.
+              We expanded our service offerings and strengthened our expertise in supporting public institutions, providing bid management and visa support. Our presence grew, and we began offering tailored solutions for construction workforce recruitment, especially in Belgium.
               </p>
             </div>
             <div className="relative pl-8 border-l-2 border-blue-600">
               <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1"></div>
               <h3 className="text-xl font-semibold mb-2">
-                2023: Industry Leader
+              2024: Industry Leader
               </h3>
               <p className="text-gray-600">
-                Recognized as a top innovator in business technology solutions.
+              D&R Consultancy is now a trusted partner for public institutions, offering comprehensive IT services, bid management expertise, and visa and worker support. We continue to innovate and lead in our field, making significant contributions to the sectors we serve.
               </p>
             </div>
           </div>

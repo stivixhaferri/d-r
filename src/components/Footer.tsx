@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
           <img src="/logo_white.svg" className="w-[40%] lg:mx-0 mx-auto pb-2" alt="" />
           <p>hello@navytech.com</p>
-          <p>Phone : +01 23456789</p>
+          <p>Phone : +32 495 13 51 12</p>
         </div>
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
           <h2 className="text-lg font-semibold">Qucik Links</h2>
@@ -20,8 +20,8 @@ const Footer = () => {
         </div>
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
           <h2 className="text-lg font-semibold">Resources</h2>
-          <Link href={"/terms"}>Privacy Policy</Link>
-          <Link href={"/privacy"}>Terms & Conditions</Link>
+          <Link href={"/privacy"}>Privacy Policy</Link>
+          <Link href={"/terms"}>Terms & Conditions</Link>
         </div>
         <div className="lg:w-[40%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1250.4757995841949!2d4.392879!3d51.183115!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f6cb870ceba5%3A0xcd4b04a17c6ec6bb!2sAntwerpen%20P%2BR%20Olympiade!5e0!3m2!1sen!2sru!4v1737203734652!5m2!1sen!2sru" className="w-full h-full border-xl" ></iframe>
@@ -42,7 +42,7 @@ const Footer = () => {
           </a>
           <br  className="lg:hidden flex" />
           <p className="text-gray-400 ">
-            © 2025 [Your Company Name]. All rights reserved.
+            © 2025 D&R Consultancy. All rights reserved.
           </p>
         </div>
         <div className="lg:w-[50%] flex items-center lg:justify-end justify-start">
