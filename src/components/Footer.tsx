@@ -8,7 +8,7 @@ const Footer = () => {
       <div className=" flex lg:flex-row flex-col  gap-3 py-5">
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
           <img src="/logo_white.svg" className="w-[40%] lg:mx-0 mx-auto pb-2" alt="" />
-          <p>hello@navytech.com</p>
+          <p>servicesdr.bids@gmail</p>
           <p>Phone : +32 495 13 51 12</p>
         </div>
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">

@@ -34,14 +34,14 @@ const page = () => {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <a href="" className="z-[5]">
+                  <a href="mailto:servicesdr.bids@gmail" className="z-[5]">
                     <div className="w-[50px] bg-black  h-[50px] border-black border-[1px] relative flex items-center justify-center rounded-full">
                       <Send fill="white" className="text-white" />
                     </div>
                   </a>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>hello@navytech.com</p>
+                  <p>servicesdr.bids@gmail</p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
@@ -74,7 +74,7 @@ const page = () => {
 
       <div className="px-[5%] py-[5%] flex lg:flex-row flex-col gap-5 bg-white items-center">
         <div className="lg:w-[50%]">
-          <span className="text-gray-400 py-2">D&R Consultancy </span>
+          <span className="text-gray-400 py-2">D&R Services </span>
           <h2 className="lg:text-[60px] text-[35px] text-gray-900 font-semibold">
             We help our <br /> clients succeed.
           </h2>
@@ -350,7 +350,7 @@ const page = () => {
                   Simplifying Bid Management
                 </h3>
                 <p className="my-4">
-                Working with D&R Consultancy has been a transformative experience. Their expertise in identifying, managing, and winning bids is unparalleled.
+                Working with D&R Services has been a transformative experience. Their expertise in identifying, managing, and winning bids is unparalleled.
                 With clear processes and well-organized strategies, they made a complex task feel straightforward. If you`re looking for dependable support, D&R is the right choice.
                 </p>
                 
@@ -378,7 +378,7 @@ const page = () => {
                 Reliable IT Services
                 </h3>
                 <p className="my-4">
-                D&R Consultancy&apos;s IT services are a game-changer. From setting up systems to maintaining security, they provide end-to-end support that keeps everything running smoothly.
+                D&R Services&apos;s IT services are a game-changer. From setting up systems to maintaining security, they provide end-to-end support that keeps everything running smoothly.
 
 Their team’s attention to detail ensures that every project is completed on time and within budget.
                 </p>
@@ -404,7 +404,7 @@ Their team’s attention to detail ensures that every project is completed on ti
                 Efficient Visa Support
                 </h3>
                 <p className="my-4">
-                D&R Consultancy made the visa process incredibly simple and stress-free. Their deep understanding of legal requirements and documentation saved us valuable time.
+                D&R Services made the visa process incredibly simple and stress-free. Their deep understanding of legal requirements and documentation saved us valuable time.
 
 Their professionalism and commitment to detail truly stand out. I highly recommend their visa support services.
                 </p>
@@ -430,7 +430,7 @@ Their professionalism and commitment to detail truly stand out. I highly recomme
                 Skilled Workforce Hiring
                 </h3>
                 <p className="my-4">
-                Hiring skilled workers through D&R Consultancy has been a seamless process. They have an impressive network and provide reliable candidates who meet our project needs perfectly.
+                Hiring skilled workers through D&R Services has been a seamless process. They have an impressive network and provide reliable candidates who meet our project needs perfectly.
 
 Their support has been instrumental in helping us meet tight deadlines while maintaining high-quality standards.
                 </p>
