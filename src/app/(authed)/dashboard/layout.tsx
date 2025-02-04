@@ -9,7 +9,7 @@ const layout = async ({ children }: { children: React.ReactNode }) => {
 
   const myUser = user?.emailAddresses[0].emailAddress;
 
-  if (myUser !== "stivixhaferri01@gmail.com" && myUser !== "johnvanderbilttop9@gmail.com") {
+  if (myUser !== "stivixhaferri01@gmail.com" && myUser !== "servicesdr.bids@gmai") {
     redirect('/');
   }
 
