@@ -11,7 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-const Navbar = () => {
+const SecondNav = () => {
   const [scrolled, setScrolled] = useState(false);
   const [isDashboardRoute, setIsDashboardRoute] = useState(false);
 
@@ -46,7 +46,7 @@ const Navbar = () => {
   return (
     <div
       className={`flex items-center px-[5%] w-full lg:fixed fixed top-0 left-0 transition-all w-[100%] max-w-full overflow-x-hidden duration-300 z-[100] ${
-        scrolled && !isDashboardRoute ? "bg-white shadow-lg" : "bg-transparent"
+        scrolled && !isDashboardRoute ? "bg-white shadow-lg" : "bg-white"
       }`}
     >
       <div className="lg:w-[50%] w-[50%] py-3">
@@ -54,7 +54,7 @@ const Navbar = () => {
           {scrolled && !isDashboardRoute ? (
             <img src="/logo.svg" className="lg:w-[25%] w-[50%]" alt="Logo" />
           ) : (
-            <img src="/logo_white.svg" className="lg:w-[25%] w-[50%]" alt="Logo" />
+            <img src="/logo.svg" className="lg:w-[25%] w-[50%]" alt="Logo" />
           )}
         </Link>
       </div>
@@ -62,20 +62,20 @@ const Navbar = () => {
       <div className="lg:w-[50%] py-3 lg:flex hidden items-center justify-end gap-5 text-lg">
         <Link
           href={"/"}
-          className={scrolled && !isDashboardRoute ? "text-gray-900 hover:underline transition-all 0.2s ease-in-out" : "text-gray-200 hover:underline transition-all 0.2s ease-in-out"}
+          className={scrolled && !isDashboardRoute ? "text-gray-900 hover:underline transition-all 0.2s ease-in-out" : "text-gray-900 hover:underline transition-all 0.2s ease-in-out"}
         >
           Home
         </Link>
         <Link
           href={"/about"}
-          className={scrolled && !isDashboardRoute ? "text-gray-900 hover:underline transition-all 0.2s ease-in-out" : "text-gray-200 hover:underline transition-all 0.2s ease-in-out"}
+          className={scrolled && !isDashboardRoute ? "text-gray-900 hover:underline transition-all 0.2s ease-in-out" : "text-gray-900 hover:underline transition-all 0.2s ease-in-out"}
         >
           About us
         </Link>
 
         <Link
           href={"/contact"}
-          className={scrolled && !isDashboardRoute ? "text-white bg-gray-900 px-4 py-2 rounded-lg" : "text-gray-200 px-4 py-2 "}
+          className={scrolled && !isDashboardRoute ? "text-white bg-gray-900 px-4 py-2 rounded-lg" : "text-white bg-gray-900 px-4 py-2 rounded-lg"}
         >
           Get in touch
         </Link>
@@ -133,4 +133,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SecondNav;

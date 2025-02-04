@@ -1,8 +1,28 @@
-import React from "react";
+'use client'
+import React , {useState , useEffect} from "react";
 import Link from "next/link";
 import { Instagram, Facebook, Twitter } from "lucide-react";
 
 const Footer = () => {
+
+
+    const [isDashboardRoute, setIsDashboardRoute] = useState(false);
+
+
+
+
+    useEffect(() => {
+      if (window.location.pathname.startsWith("/dashboard")) {
+        setIsDashboardRoute(true);
+      } else {
+        setIsDashboardRoute(false);
+      }
+    },[isDashboardRoute]);
+
+
+    if(isDashboardRoute){
+      return <></>
+    }
   return (
     <div className="pb-3 pt-5 px-[5%] flex flex-col gap-3 z-[5] relative bg-gray-900 text-white">
       <div className=" flex lg:flex-row flex-col  gap-3 py-5">

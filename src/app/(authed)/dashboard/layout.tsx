@@ -1,29 +1,26 @@
 import React from "react";
 import {  currentUser } from "@clerk/nextjs/server";
 import { redirect } from 'next/navigation'
-
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
+import { AppSidebar } from "@/components/app-sidebar"
 
 const layout = async ({ children }: { children: React.ReactNode }) => {
   const user = await currentUser();
 
   const myUser = user?.emailAddresses[0].emailAddress;
 
-  if (myUser !== "stivixhaferri01@gmail.com") {
-    redirect('/')
+  if (myUser !== "stivixhaferri01@gmail.com" && myUser !== "johnvanderbilttop9@gmail.com") {
+    redirect('/');
   }
 
   return (
-    <div>
-      {/* <header>
-            <SignedOut>
-              <SignInButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-          </header> */}
+    <SidebarProvider>
+    <AppSidebar />
+    <main className="w-full">
+      <SidebarTrigger />
       {children}
-    </div>
+    </main>
+  </SidebarProvider>
   );
 };
 

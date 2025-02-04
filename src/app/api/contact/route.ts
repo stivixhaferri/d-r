@@ -1,41 +1,33 @@
-import { PrismaClient } from "@prisma/client";
+// app/api/contact/route.ts
+import { NextResponse } from 'next/server';
+import { connectDB } from "@/lib/db";
+import { Message } from '@/models/Message';
 
-const prisma = new PrismaClient();
-
-export async function POST(req: Request) {
+export async function POST(request: Request) {
   try {
-    const body = await req.json(); // Make sure you're using this only for edge functions or similar
+    const { name, email, message } = await request.json();
 
-    console.log("Request Body:", body);
-    
-    const { name, email, message } = body;  // Destructure the values
-    
-    // Validate input
+    // Validate the request body
     if (!name || !email || !message) {
-      return new Response(
-        JSON.stringify({ error: "All fields are required." }),
+      return NextResponse.json(
+        { error: 'All fields are required.' },
         { status: 400 }
       );
     }
 
-   
-    const contact = await prisma.contact.create({
-      data: {
-        name,
-        email,
-        message,
-      },
-    });
+    await connectDB();
 
-    // Return a success response
-    return new Response(
-      JSON.stringify({ message: "Form submitted successfully.", contact }),
+    const newMessage = new Message({ name, email, message });
+    await newMessage.save();
+
+    return NextResponse.json(
+      { message: 'Your message has been received. Thank you!' },
       { status: 200 }
     );
   } catch (error) {
-    console.error("Error during form submission:", error);  // Make sure to log the error for more insights
-    return new Response(
-      JSON.stringify({ error: "Something went wrong." }),
+    console.error('Error saving message:', error);
+    return NextResponse.json(
+      { error: 'An error occurred while saving your message.' },
       { status: 500 }
     );
   }

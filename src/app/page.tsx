@@ -9,6 +9,7 @@ import {
   TooltipTrigger
 } from "@/components/ui/tooltip";
 import FAQ from "@/components/FAQ";
+import BlogsSection from "@/components/BlogSection";
 
 const page = () => {
   return (
@@ -454,6 +455,8 @@ Their support has been instrumental in helping us meet tight deadlines while mai
         </div>
       </section>
 
+
+      <BlogsSection/>
     
    
 

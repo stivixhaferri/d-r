@@ -40,7 +40,7 @@ export default function ContactForm() {
       // Handle success or error
       if (response.ok) {
         setSuccess(data.message);
-        setError(null); // Clear any previous errors
+        setError(null); 
         setName("");
         setEmail("");
         setMessage("");

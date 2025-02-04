@@ -4,10 +4,9 @@ const prisma = new PrismaClient();
 
 export async function GET() {
   try {
-    // Fetch all contacts from the database
+   
     const contacts = await prisma.contact.findMany();
 
-    // Return a success response with the contacts data
     return new Response(
       JSON.stringify({ message: "Contacts fetched successfully.", contacts }),
       { status: 200 }
