@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
           <img src="/logo_white.svg" className="w-[40%] lg:mx-0 mx-auto pb-2" alt="" />
           <p>servicesdr.bids@gmail</p>
-          <p>Phone : +32 495 13 51 12</p>
+          <p>Phone : 0032478262139</p>
         </div>
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
           <h2 className="text-lg font-semibold">Qucik Links</h2>

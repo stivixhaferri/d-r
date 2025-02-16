@@ -56,14 +56,14 @@ const page = () => {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <a href="tel:+32495135112" className="z-[5] ">
+                  <a href="tel:+0032478262139" className="z-[5] ">
                     <div className="w-[50px] lg:mb-0 mb-5 h-[50px] border-black bg-black border-[1px] relative flex items-center justify-center rounded-full">
                       <Phone fill='white' className="" />
                     </div>
                   </a>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>Phone : +32 495 13 51 12</p>
+                  <p>Phone : 0032478262139</p>
                 </TooltipContent>
               </Tooltip>
             </TooltipProvider>
@@ -76,16 +76,13 @@ const page = () => {
       <div className="px-[5%] py-[5%] flex lg:flex-row flex-col gap-5 bg-white items-center">
         <div className="lg:w-[50%]">
           <span className="text-gray-400 py-2">D&R Services </span>
-          <h2 className="lg:text-[60px] text-[35px] text-gray-900 font-semibold">
-            We help our <br /> clients succeed.
+          <h2 className="lg:text-[40px] text-[35px] text-gray-900 font-semibold">
+          Are you looking to expand your business by participating in tenders?
           </h2>
           <p className="text-gray-600 text-xl py-[5%] lg:w-[85%]">
-            Through careful analysis, creative thinking, and a deep
-            understanding of their goals, we empower businesses to surpass
-            expectations and thrive in today&apos;s dynamic and competitive
-            landscape.
+          If you have at least three years of experience in your field, you&apos;re in the right place! Our expert team is dedicated to guiding your business toward successful bids and rapid growth—regardless of your industry.
           </p>
-          <a href="" className="lg:text-5xl text-xl text-gray-900">
+          <a href="tel:+0032478262139" className="lg:text-5xl text-xl text-gray-900">
             <p className="pt-[5%] flex items-center gap-5">
               CONTACT NOW <MoveRight fontSize={80} />
             </p>
@@ -136,8 +133,9 @@ const page = () => {
             Features
           </Badge>
 
-          <h2 className="lg:text-[60px] text-[35px] text-start font-semibold">
-            Less Accounting is <br /> trusted by thousands <br /> of companies
+          <h2 className="lg:text-[40px] text-[35px] text-start font-semibold">
+          What We Offer <br/>
+          We provide end-to-end bid and tender management services, ensuring a smooth and successful bidding process. 
           </h2>
         </div>
         <div className="lg:w-[50%]">
@@ -149,10 +147,12 @@ const page = () => {
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-                Bid Management
+              Bid Management & Strategy
               </h2>
               <p className="text-gray-500">
-              Streamline your processes with tailored solutions to meet every requirement.
+              Managing the entire bidding process from start to finish
+              Developing and executing a tailored bid plan
+              Proactively resolving issues and ensuring seamless bid submission
               </p>
             </div>
 
@@ -163,10 +163,12 @@ const page = () => {
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-                IT Services
+              Customer & Team Management
               </h2>
               <p className="text-gray-500">
-              Empower your business with cutting-edge tech and expert support for growth.
+              Acting as the main point of contact for the tendering process
+Coordinating bid team meetings, workshops, and governance sessions
+Building and managing the right team to enhance your bid&apos;s success
               </p>
             </div>
 
@@ -177,10 +179,11 @@ const page = () => {
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-                Visa Support
+              Tender Search & Evaluation
               </h2>
               <p className="text-gray-500">
-                Navigate visa complexities effortlessly with our personalized guidance.
+              Identifying new bid opportunities within your industry
+              Providing a comprehensive analysis of tenders to support informed decision-making (go/no-go assessment)
               </p>
             </div>
 
@@ -191,10 +194,10 @@ const page = () => {
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-                Hiring Constructtion
+              Proposal & Documentation Management
               </h2>
               <p className="text-gray-500">
-              Bridge the gap to skilled teams for seamless project execution abroad.
+              Ensuring all bid documents are well-organized and compliant with tender requirements
               </p>
             </div>
           </div>
@@ -210,14 +213,17 @@ const page = () => {
         <div className="w-full flex-col justify-center items-start gap-8 flex">
           <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
             <h6 className="text-gray-400 text-base font-normal leading-relaxed">
-              About Us
+            Expert Review
             </h6>
             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
               <h2 className="text-gray-900 dark:text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-              The Journey of Progress and Purpose
+              Elevate Your Bidding Strategy for Maximum Success
               </h2>
               <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-              Our story is built on dedication, collaboration, and growth. Together, we’ve turned challenges into opportunities, milestones into achievements, and aspirations into realities.
+              Overseeing the review process for written responses to maximize quality and impact
+Managing customer engagement and communication throughout the bidding phase
+Whether you need a dedicated bid manager or a full presales team, we have the expertise to help you win more tenders and accelerate your business growth.
+
               </p>
             </div>
           </div>
@@ -282,44 +288,39 @@ const page = () => {
 
 
       <div className="px-[5%] lg:py-[5%] pb-[10%] overflow-hidden">
-        <h2 className="text-3xl font-semibold stretch w-full text-center">OUR IT SERVICES</h2>
+        {/* <h2 className="text-3xl font-semibold stretch w-full text-center">OUR IT SERVICES</h2> */}
         <div className="lg:grid flex flex-col lg:grid-cols-2 grid-cols-1 lg:py-5 py-[5%] gap-[5%] ">
           <div className="lg:py-1 py-[5%]">
-            <img src="/s11.svg" alt="" />
+            <img src="/e1.svg" alt="" />
           </div>
 
           <div className="flex items-center gap-5 lg:py-1 py-[5%]">
             <img src="/s1.svg" alt="" />
             <h2 className="text-gray-500 text-lg">
-            Robust and scalable cloud storage solutions designed to securely manage and store sensitive data related to bidding processes and recruitment operations. Our advanced security measures.
+            
+            Our approach goes beyond standard bid writing—we use data and competitor analysis to refine your proposals for maximum impact. By identifying trends, evaluating past bid performances, and aligning strategies with buyer expectations, we help you create winning bids. With our expertise, you can enhance your competitive edge and improve your success rate.
             </h2>
           </div>
 
 
 
-          <div className="flex items-center gap-5 lg:py-1 py-[5%]">
-            <img src="/s2.svg" alt="" />
-            <h2 className="text-gray-500 text-lg">
-            Robust and scalable cloud storage solutions designed to securely manage and store sensitive data related to bidding processes and recruitment operations. Our advanced security measures.
-            </h2>
-          </div>
-
-          <div className="lg:py-1 py-[5%]">
-            <img src="/s223.svg" alt="" />
-          </div>
+         
 
 
           
-          <div className="lg:py-1 py-[5%]">
-            <img src="/s33.svg" alt="" />
-          </div>
+          
 
 
           <div className="flex items-center gap-5 lg:py-1 py-[5%]">
             <img src="/s3.svg" alt="" />
             <h2 className="text-gray-500 text-lg">
-            We offer tailored project management solutions using tools like Notion to help you manage bids, recruitment tasks.
+            Managing multiple stakeholders, deadlines, and documentation can be overwhelming. Our bid coordination services ensure that every aspect of your submission is handled with precision. From organizing team workshops to aligning responses with evaluation criteria, we guarantee a seamless, stress-free bidding experience.
             </h2>
+          </div>
+
+
+          <div className="lg:py-1 py-[5%]">
+            <img src="/e3.svg" alt="" />
           </div>
 
 
