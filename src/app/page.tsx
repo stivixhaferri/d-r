@@ -111,7 +111,7 @@ const page = () => {
                 alt=""
               />
             </div>
-            <h3 className="text-gray-900">100+ Happy Clients</h3>
+            <h3 className="text-gray-900">1000+ Happy Clients</h3>
           </div>
         </div>
         <div className="lg:w-[50%] lg:py-0 pt-5 relative overflow-hidden">
@@ -220,39 +220,50 @@ Building and managing the right team to enhance your bid&apos;s success
               Elevate Your Bidding Strategy for Maximum Success
               </h2>
               <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-              Overseeing the review process for written responses to maximize quality and impact
-Managing customer engagement and communication throughout the bidding phase
-Whether you need a dedicated bid manager or a full presales team, we have the expertise to help you win more tenders and accelerate your business growth.
+             
+
+
 
               </p>
+              <ul>
+                <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
+                • Overseeing the review process for written responses to maximize quality and impact.
+                </li>
+                <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
+                • Managing customer engagement and communication throughout the bidding phase.
+                </li>
+                <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
+                • Whether you need a dedicated bid manager or a full presales team, we have the expertise to help you win more tenders and accelerate your business growth.
+                </li>
+              </ul>
             </div>
           </div>
           <div className="w-full flex-col justify-center items-start gap-6 flex">
             <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
               <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  5+ Years
+                  10+ Years
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Shaping Industries with Consistency and Expertise
+                Shaping Industries with Consistency and Expertise.
                 </p>
               </div>
               <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  100+ Projects
+                  1000+ Projects
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Delivering Results That Make a Difference
+                Delivering high-impact solutions with a total project value exceeding €1 billion. 
                 </p>
               </div>
             </div>
             <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
               <div className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                 <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  8+ Awards
+                  200+ Awards
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Recognized for Pioneering Solutions and Commitment
+                Recognized for Pioneering Solutions and Commitment.
                 </p>
               </div>
               <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
@@ -260,7 +271,7 @@ Whether you need a dedicated bid manager or a full presales team, we have the ex
                   99% Happy Clients
                 </h4>
                 <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Reflecting Our Promise to Quality and Trust
+                Reflecting Our Promise to Quality and Trust.
                 </p>
               </div>
             </div>
@@ -284,7 +295,7 @@ Whether you need a dedicated bid manager or a full presales team, we have the ex
       </div>
 
 
-      <AppleCarousel/>
+      {/* <AppleCarousel/> */}
 
 
       <div className="px-[5%] lg:py-[5%] pb-[10%] overflow-hidden">
