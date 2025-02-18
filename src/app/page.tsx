@@ -1,7 +1,7 @@
 import React from "react";
 import { Send, Phone, Instagram, Facebook, MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import {AppleCarousel} from '@/components/AppleCarousel'
+
 import {
   Tooltip,
   TooltipContent,
