@@ -28,7 +28,7 @@ const Footer = () => {
       <div className=" flex lg:flex-row flex-col  gap-3 py-5">
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
           <img src="/logo_white.svg" className="w-[40%] lg:mx-0 mx-auto pb-2" alt="" />
-          <p>servicesdr.bids@gmail</p>
+          <p>servicesdr.bids@gmail.com</p>
           <p>Phone : 0032478262139</p>
         </div>
         <div className="lg:w-[20%] flex flex-col gap-3 lg:text-start text-center lg:jsutify-start justify-center">
@@ -61,13 +61,14 @@ const Footer = () => {
             <Twitter />
           </a>
           <br  className="lg:hidden flex" />
-          <p className="text-gray-400 ">
-            © 2025 D&R Consultancy. All rights reserved.
-          </p>
+         
         </div>
         <div className="lg:w-[50%] flex items-center lg:justify-end justify-start">
-            <p className="text-gray-400">
+            {/* <p className="text-gray-400">
             Website Created by <a className="text-white">RV Studio </a> .
+          </p> */}
+           <p className="text-gray-400 ">
+            © 2025 D&R Consultancy. All rights reserved.
           </p>
         </div>
       </div>

@@ -75,11 +75,12 @@ const page = () => {
           <h2 className="text-3xl font-semibold mb-8 text-center">
             Our Mission
           </h2>
-          <div className="flex items-center justify-center">
-            <Target className="w-12 h-12 text-blue-600 mr-4" />
-            <p className="text-xl text-gray-700 max-w-2xl">
-              To empower businesses with innovative solutions that drive growth,
-              efficiency, and success in an ever-evolving digital landscape.
+          <div className="flex items-center lg:flex-row flex-col justify-center lg:gap-1 gap-3">
+            <Target className="w-[90px] h-[90px] text-blue-600 mr-4" />
+            <p className="text-lg text-gray-700 max-w-2xl">
+            Our mission is to empower businesses with expert bid management solutions, ensuring a seamless and strategic approach to securing successful contracts.
+We are committed to delivering tailored support, from identifying the right opportunities to managing the entire bidding process with precision and efficiency.
+By combining industry expertise, strategic insights, and a results-driven approach, we help our clients maximize their chances of winning bids and achieving sustainable growth.
             </p>
           </div>
         </div>
@@ -127,26 +128,29 @@ const page = () => {
             <div className="mb-8 relative pl-8 border-l-2 border-blue-600">
               <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1"></div>
               <h3 className="text-xl font-semibold mb-2">
-              2020: The Beginning
+              The Beginning
               </h3>
               <p className="text-gray-600">
-              D&R Consultancy was founded with a mission to deliver innovative solutions across various sectors, including IT services, bid management, and hiring support for public institutions.
+              We founded our bid management company to help businesses navigate complex tendering processes with confidence, maximize their success rates, and unlock new growth opportunities.
               </p>
             </div>
             <div className="mb-8 relative pl-8 border-l-2 border-blue-600">
               <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1"></div>
-              <h3 className="text-xl font-semibold mb-2">2022: Steady Growth</h3>
+              <h3 className="text-xl font-semibold mb-2">The Growth</h3>
               <p className="text-gray-600">
-              We expanded our service offerings and strengthened our expertise in supporting public institutions, providing bid management and visa support. Our presence grew, and we began offering tailored solutions for construction workforce recruitment, especially in Belgium.
+              We have grown through a commitment to excellence, strategic expertise, and a results-driven approach. <br/>
+              By consistently securing successful bids for our clients, expanding our industry knowledge, and building a strong network, we have established ourselves as a trusted partner in the tendering process.
+
+
               </p>
             </div>
             <div className="relative pl-8 border-l-2 border-blue-600">
               <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-1"></div>
               <h3 className="text-xl font-semibold mb-2">
-              2024: Industry Leader
+              Industry Leader
               </h3>
               <p className="text-gray-600">
-              D&R Consultancy is now a trusted partner for public institutions, offering comprehensive IT services, bid management expertise, and visa and worker support. We continue to innovate and lead in our field, making significant contributions to the sectors we serve.
+              Leading the industry in bid management, we drive businesses toward winning strategies and sustainable growth.
               </p>
             </div>
           </div>

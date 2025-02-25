@@ -6,7 +6,7 @@ import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
-  TooltipTrigger
+  TooltipTrigger,
 } from "@/components/ui/tooltip";
 import FAQ from "@/components/FAQ";
 import BlogsSection from "@/components/BlogSection";
@@ -35,7 +35,7 @@ const page = () => {
             <TooltipProvider>
               <Tooltip>
                 <TooltipTrigger>
-                  <a href="mailto:servicesdr.bids@gmail" className="z-[5]">
+                  <a href="mailto:servicesdr.bids@gmail.com" className="z-[5]">
                     <div className="w-[50px] bg-black  h-[50px] border-black border-[1px] relative flex items-center justify-center rounded-full">
                       <Send fill="white" className="text-white" />
                     </div>
@@ -49,7 +49,7 @@ const page = () => {
           </div>
           <div className="lg:w-[80%] w-full flex items-center justify-center">
             <h2 className="stretch lg:text-[80px] lg:py-0 py-5 z-[5] text-[35px] font-semibold relative drop-shadow-4xl text-gray-300 lg:shadow-none ">
-            EASE YOUR PATH, LEAD AHEAD
+              EASE YOUR PATH, LEAD AHEAD
             </h2>
           </div>
           <div className="lg:w-[10%] w-full flex items-center justify-end gap-2 z-[5]">
@@ -58,7 +58,7 @@ const page = () => {
                 <TooltipTrigger>
                   <a href="tel:+0032478262139" className="z-[5] ">
                     <div className="w-[50px] lg:mb-0 mb-5 h-[50px] border-black bg-black border-[1px] relative flex items-center justify-center rounded-full">
-                      <Phone fill='white' className="" />
+                      <Phone fill="white" className="" />
                     </div>
                   </a>
                 </TooltipTrigger>
@@ -71,48 +71,27 @@ const page = () => {
         </div>
       </div>
 
-   
-
       <div className="px-[5%] py-[5%] flex lg:flex-row flex-col gap-5 bg-white items-center">
         <div className="lg:w-[50%]">
           <span className="text-gray-400 py-2">D&R Services </span>
           <h2 className="lg:text-[40px] text-[35px] text-gray-900 font-semibold">
-          Are you looking to expand your business by participating in tenders?
+            Are you looking to expand your business by participating in tenders?
           </h2>
           <p className="text-gray-600 text-xl py-[5%] lg:w-[85%]">
-          If you have at least three years of experience in your field, you&apos;re in the right place! Our expert team is dedicated to guiding your business toward successful bids and rapid growth—regardless of your industry.
+            If you have at least three years of experience in your field,
+            you&apos;re in the right place!
+            <br />
+            Our expert team is dedicated to guiding your business toward
+            successful bids and rapid growth—regardless of your industry.
           </p>
-          <a href="tel:+0032478262139" className="lg:text-5xl text-xl text-gray-900">
+          <a
+            href="https://wa.me/32478262139"
+            className="lg:text-5xl text-xl text-gray-900"
+          >
             <p className="pt-[5%] flex items-center gap-5">
               CONTACT NOW <MoveRight fontSize={80} />
             </p>
           </a>
-
-          <div className="pt-[5%] flex items-center gap-4">
-            <div className="flex -space-x-4 rtl:space-x-reverse ">
-              <img
-                className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                src="/p1.jpg"
-                alt=""
-              />
-              <img
-                className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                src="/p2.jpg"
-                alt=""
-              />
-              <img
-                className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                src="/p3.jpg"
-                alt=""
-              />
-              <img
-                className="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                src="/p4.jpg"
-                alt=""
-              />
-            </div>
-            <h3 className="text-gray-900">1000+ Happy Clients</h3>
-          </div>
         </div>
         <div className="lg:w-[50%] lg:py-0 pt-5 relative overflow-hidden">
           <div className="bg-gradient-to-r from-cyan-800 opacity-[0.3] to-blue-900 lg:hidden flex w-[500px] h-[500px] absolute top-[35%] left-0 right-0 bottom-0 rounded-full blur-3xl"></div>
@@ -134,8 +113,9 @@ const page = () => {
           </Badge>
 
           <h2 className="lg:text-[40px] text-[35px] text-start font-semibold">
-          What We Offer <br/>
-          We provide end-to-end bid and tender management services, ensuring a smooth and successful bidding process. 
+            What We Offer <br />
+            We provide end-to-end bid and tender management services, ensuring a
+            smooth and successful bidding process.
           </h2>
         </div>
         <div className="lg:w-[50%]">
@@ -147,12 +127,12 @@ const page = () => {
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-              Bid Management & Strategy
+                Bid Management & Strategy
               </h2>
               <p className="text-gray-500">
-              Managing the entire bidding process from start to finish
-              Developing and executing a tailored bid plan
-              Proactively resolving issues and ensuring seamless bid submission
+                Managing the entire bidding process from start to finish
+                Developing and executing a tailored bid plan Proactively
+                resolving issues and ensuring seamless bid submission
               </p>
             </div>
 
@@ -163,12 +143,13 @@ const page = () => {
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-              Customer & Team Management
+                Customer & Team Management
               </h2>
               <p className="text-gray-500">
-              Acting as the main point of contact for the tendering process
-Coordinating bid team meetings, workshops, and governance sessions
-Building and managing the right team to enhance your bid&apos;s success
+                Acting as the main point of contact for the tendering process
+                Coordinating bid team meetings, workshops, and governance
+                sessions Building and managing the right team to enhance your
+                bid&apos;s success
               </p>
             </div>
 
@@ -179,11 +160,12 @@ Building and managing the right team to enhance your bid&apos;s success
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-              Tender Search & Evaluation
+                Tender Search & Evaluation
               </h2>
               <p className="text-gray-500">
-              Identifying new bid opportunities within your industry
-              Providing a comprehensive analysis of tenders to support informed decision-making (go/no-go assessment)
+                Identifying new bid opportunities within your industry Providing
+                a comprehensive analysis of tenders to support informed
+                decision-making (go/no-go assessment)
               </p>
             </div>
 
@@ -194,109 +176,106 @@ Building and managing the right team to enhance your bid&apos;s success
                 className="w-[50px] object-fill"
               />
               <h2 className="text-3xl font-semibold text-gray-900 py-3">
-              Proposal & Documentation Management
+                Proposal & Documentation Management
               </h2>
               <p className="text-gray-500">
-              Ensuring all bid documents are well-organized and compliant with tender requirements
+                Ensuring all bid documents are well-organized and compliant with
+                tender requirements
               </p>
             </div>
           </div>
         </div>
       </div>
-
 
       <div>
-      <section className="py-24 relative xl:mr-0 lg:mr-5 mr-0">
-  <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-    <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
-      <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
-        <div className="w-full flex-col justify-center items-start gap-8 flex">
-          <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
-            <h6 className="text-gray-400 text-base font-normal leading-relaxed">
-            Expert Review
-            </h6>
-            <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-              <h2 className="text-gray-900 dark:text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-              Elevate Your Bidding Strategy for Maximum Success
-              </h2>
-              <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-             
-
-
-
-              </p>
-              <ul>
-                <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
-                • Overseeing the review process for written responses to maximize quality and impact.
-                </li>
-                <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
-                • Managing customer engagement and communication throughout the bidding phase.
-                </li>
-                <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
-                • Whether you need a dedicated bid manager or a full presales team, we have the expertise to help you win more tenders and accelerate your business growth.
-                </li>
-              </ul>
+        <section className="py-24 relative xl:mr-0 lg:mr-5 mr-0">
+          <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+            <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                <div className="w-full flex-col justify-center items-start gap-8 flex">
+                  <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
+                    <h6 className="text-gray-400 text-base font-normal leading-relaxed">
+                      Expert Review
+                    </h6>
+                    <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                      <h2 className="text-gray-900 dark:text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                        Elevate Your Bidding Strategy for Maximum Success
+                      </h2>
+                      <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center"></p>
+                      <ul>
+                        <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
+                          • Overseeing the review process for written responses
+                          to maximize quality and impact.
+                        </li>
+                        <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
+                          • Managing customer engagement and communication
+                          throughout the bidding phase.
+                        </li>
+                        <li className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center py-1">
+                          • Whether you need a dedicated bid manager or a full
+                          presales team, we have the expertise to help you win
+                          more tenders and accelerate your business growth.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="w-full flex-col justify-center items-start gap-6 flex">
+                    <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                      <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
+                          10+ Years
+                        </h4>
+                        <p className="text-gray-500 text-base font-normal leading-relaxed">
+                          Shaping Industries with Consistency and Expertise.
+                        </p>
+                      </div>
+                      <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
+                          1000+ Projects
+                        </h4>
+                        <p className="text-gray-500 text-base font-normal leading-relaxed">
+                          {/* Delivering high-impact solutions with a  value exceeding €1 billion.  */}
+                          Delivering high-impact solutions with a value
+                          exceeding €1 billion.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                      <div className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
+                          200+ Awards
+                        </h4>
+                        <p className="text-gray-500 text-base font-normal leading-relaxed">
+                          Recognized for Pioneering Solutions and Commitment.
+                        </p>
+                      </div>
+                      <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
+                          99% Happy Clients
+                        </h4>
+                        <p className="text-gray-500 text-base font-normal leading-relaxed">
+                          Reflecting Our Promise to Quality and Trust.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full lg:justify-start justify-center items-start flex">
+                <div className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">
+                  <img
+                    className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
+                    src="https://pagedone.io/asset/uploads/1717742431.png"
+                    alt="about Us image"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-          <div className="w-full flex-col justify-center items-start gap-6 flex">
-            <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-              <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  10+ Years
-                </h4>
-                <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Shaping Industries with Consistency and Expertise.
-                </p>
-              </div>
-              <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  1000+ Projects
-                </h4>
-                <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Delivering high-impact solutions with a total project value exceeding €1 billion. 
-                </p>
-              </div>
-            </div>
-            <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-              <div className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  200+ Awards
-                </h4>
-                <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Recognized for Pioneering Solutions and Commitment.
-                </p>
-              </div>
-              <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                  99% Happy Clients
-                </h4>
-                <p className="text-gray-500 text-base font-normal leading-relaxed">
-                Reflecting Our Promise to Quality and Trust.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+        </section>
       </div>
-      <div className="w-full lg:justify-start justify-center items-start flex">
-        <div className="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">
-          <img
-            className="sm:mt-5 sm:ml-5 w-full h-full rounded-3xl object-cover"
-            src="https://pagedone.io/asset/uploads/1717742431.png"
-            alt="about Us image"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-      </div>
-
 
       {/* <AppleCarousel/> */}
-
 
       <div className="px-[5%] lg:py-[5%] pb-[10%] overflow-hidden">
         {/* <h2 className="text-3xl font-semibold stretch w-full text-center">OUR IT SERVICES</h2> */}
@@ -308,172 +287,46 @@ Building and managing the right team to enhance your bid&apos;s success
           <div className="flex items-center gap-5 lg:py-1 py-[5%]">
             <img src="/s1.svg" alt="" />
             <h2 className="text-gray-500 text-lg">
-            
-            Our approach goes beyond standard bid writing—we use data and competitor analysis to refine your proposals for maximum impact. By identifying trends, evaluating past bid performances, and aligning strategies with buyer expectations, we help you create winning bids. With our expertise, you can enhance your competitive edge and improve your success rate.
+              Our approach goes beyond standard bid writing—we use data and
+              competitor analysis to refine your proposals for maximum impact.
+              <br />
+              By identifying trends, evaluating past bid performances, and
+              aligning strategies with buyer expectations, we help you create
+              winning bids.
+              <br />
+              With our expertise, you can enhance your competitive edge and
+              improve your success rate.
+              <br />
             </h2>
           </div>
-
-
-
-         
-
-
-          
-          
-
 
           <div className="flex items-center gap-5 lg:py-1 py-[5%]">
             <img src="/s3.svg" alt="" />
             <h2 className="text-gray-500 text-lg">
-            Managing multiple stakeholders, deadlines, and documentation can be overwhelming. Our bid coordination services ensure that every aspect of your submission is handled with precision. From organizing team workshops to aligning responses with evaluation criteria, we guarantee a seamless, stress-free bidding experience.
+              Managing multiple stakeholders, deadlines, and documentation can
+              be overwhelming.
+              <br />
+              Our bid management services ensure that every aspect of your
+              submission is handled with precision.
+              <br />
+              From organizing team workshops to aligning responses with
+              evaluation criteria, we guarantee a seamless, stress-free bidding
+              experience.
+              <br />
             </h2>
           </div>
-
 
           <div className="lg:py-1 py-[5%]">
             <img src="/e3.svg" alt="" />
           </div>
-
-
-
-
         </div>
       </div>
 
-    <section>
-      <FAQ/>
-    </section>
-      
-
-      <section className="bg-white lg:pt-0">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-[5%] lg:px-6">
-          <div className="mx-auto max-w-screen-sm">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
-              Testimonials
-            </h2>
-            <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl">
-              Explore the whole collection of open-source web components and
-              elements built with the utility classes from Tailwind
-            </p>
-          </div>
-          <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
-            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
-              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
-                <h3 className="text-lg font-semibold text-gray-900">
-                  Simplifying Bid Management
-                </h3>
-                <p className="my-4">
-                Working with D&R Services has been a transformative experience. Their expertise in identifying, managing, and winning bids is unparalleled.
-                With clear processes and well-organized strategies, they made a complex task feel straightforward. If you`re looking for dependable support, D&R is the right choice.
-                </p>
-                
-                <p className="my-4">
-                  If you care for your time, I hands down would go with this.
-                </p>
-              </blockquote>
-              <figcaption className="flex justify-center items-center space-x-3">
-                <img
-                  className="w-9 h-9 rounded-full"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
-                  alt="profile picture"
-                />
-                <div className="space-y-0.5 font-medium text-left">
-                  <div>Bonnie Green</div>
-                  <div className="text-sm font-light text-gray-500">
-                  Project Manager at Open Solutions
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
-                <h3 className="text-lg font-semibold text-gray-900">
-                Reliable IT Services
-                </h3>
-                <p className="my-4">
-                D&R Services&apos;s IT services are a game-changer. From setting up systems to maintaining security, they provide end-to-end support that keeps everything running smoothly.
-
-Their team’s attention to detail ensures that every project is completed on time and within budget.
-                </p>
-               
-              </blockquote>
-              <figcaption className="flex justify-center items-center space-x-3">
-                <img
-                  className="w-9 h-9 rounded-full"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
-                  alt="profile picture"
-                />
-                <div className="space-y-0.5 font-medium text-left">
-                  <div>Roberta Casas</div>
-                  <div className="text-sm font-light text-gray-500">
-                  IT Lead at TechBridge
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r">
-              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
-                <h3 className="text-lg font-semibold text-gray-900">
-                Efficient Visa Support
-                </h3>
-                <p className="my-4">
-                D&R Services made the visa process incredibly simple and stress-free. Their deep understanding of legal requirements and documentation saved us valuable time.
-
-Their professionalism and commitment to detail truly stand out. I highly recommend their visa support services.
-                </p>
-               
-              </blockquote>
-              <figcaption className="flex justify-center items-center space-x-3">
-                <img
-                  className="w-9 h-9 rounded-full"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
-                  alt="profile picture"
-                />
-                <div className="space-y-0.5 font-medium text-left">
-                  <div>Jese Leos</div>
-                  <div className="text-sm font-light text-gray-500">
-                  HR Specialist at GlobalLink
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12">
-              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500">
-                <h3 className="text-lg font-semibold text-gray-900">
-                Skilled Workforce Hiring
-                </h3>
-                <p className="my-4">
-                Hiring skilled workers through D&R Services has been a seamless process. They have an impressive network and provide reliable candidates who meet our project needs perfectly.
-
-Their support has been instrumental in helping us meet tight deadlines while maintaining high-quality standards.
-                </p>
-              </blockquote>
-              <figcaption className="flex justify-center items-center space-x-3">
-                <img
-                  className="w-9 h-9 rounded-full"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
-                  alt="profile picture"
-                />
-                <div className="space-y-0.5 font-medium text-left">
-                  <div>Joseph McFall</div>
-                  <div className="text-sm font-light text-gray-500">
-                  Construction Manager at BuildSmart
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          
-        </div>
+      <section>
+        <FAQ />
       </section>
 
-
-      <BlogsSection/>
-    
-   
-
-                    
-
+      <BlogsSection />
     </div>
   );
 };

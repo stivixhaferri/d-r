@@ -110,19 +110,19 @@ const Navbar = () => {
                     <MapPinHouse /> 2020 Antwerp, Belgium
                   </div>
                   <div className="w-full text-start text-gray-600 flex items-center gap-2">
-                    <Phone /> 2020 Antwerp, Belgium
+                    <Phone /> 0032478262139
                   </div>
                   <div className="w-full text-start text-gray-600 flex items-center gap-2">
-                    <Mail /> hello@navytech.com
+                    <Mail /> servicesdr.bids@gmail.com
                   </div>
                 </div>
                 <div className="flex flex-col gap-5 pt-5 border-b-[0.4px] pb-5">
-                  <Link href={'terms'} className="w-full text-start">
+                  <a href={'terms'} className="w-full text-start">
                     Terms & Conditions
-                  </Link>
-                  <Link href={'privacy'} className="w-full text-start">
+                  </a>
+                  <a href={'privacy'} className="w-full text-start">
                     Privacy Policy
-                  </Link>
+                  </a>
                 </div>
               </SheetDescription>
             </SheetHeader>
